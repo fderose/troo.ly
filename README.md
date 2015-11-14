@@ -32,3 +32,5 @@ where "source" is a source of the document D (supported sources are: a file name
   ./run.sh -sp http://www.bloomberg.com/news/articles/2015-11-13/calm-broken-as-u-s-stocks-post-worst-week-since-august-selloff 3 volatility equity index stock
 
 If the program encounters errors (for example, k is set to "abc"), it simply throws exceptions. The message in the exception should indicate what the problem is.
+
+The classes FindClosestTokensTest and FindShortestPassageTest contain some (non-exhaustive) tests.

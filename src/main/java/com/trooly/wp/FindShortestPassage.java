@@ -17,7 +17,7 @@ public class FindShortestPassage extends FindAbstractBase {
   }
 
   public static String getUsage() {
-    return "To find shortest passage: WordProximity -sp source k word word ...";
+    return "To find shortest passage: run.sh -sp source k word word ...";
   }
 
   private final int k;

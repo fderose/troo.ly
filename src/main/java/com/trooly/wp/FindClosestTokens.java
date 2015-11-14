@@ -18,7 +18,7 @@ public class FindClosestTokens extends FindAbstractBase {
   }
 
   public static String getUsage() {
-    return "To find closest tokens:   WordProximity -ct source word word ...";
+    return "To find closest tokens:   run.sh -ct source word word ...";
   }
 
   public FindClosestTokens(String text, Set<String> words, ITokenizer tokenizer) throws Exception {
